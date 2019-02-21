@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">-->
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-latest.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <!-- Compiled and minified CSS 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    Compiled and minified JavaScript 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->     
+    <title>Document</title>
+</head>
+    <body id="body">
+        <header>
+            <h1>Formularios</h1>
+        </header>
+        <section>
+            <article>
+                <h2>Sueldo</h2>
+                <form id="formSueldo" method="POST">
+                    <input id="sueldo" type="number" required placeholder="$ Sueldo"><br>
+                    <input id="btnSueldo" type="submit"><br>
+                    <div class="resultado" id="resultadoSueldo"></div>
+                </form>
+            </article>
+            <hr>
+            <article>
+                <h2>Array</h2>
+                <form id="formArray" method="POST">
+                    <input id="numero" type="number" required placeholder="Número"><br>
+                    <input id="btnNumero" type="submit"><br>
+                    <div class="resultado" id="resultadoArray"></div>
+                </form>
+            </article>
+        </section>
+    </body>
+    <script src="index.js" type="module"></script>
+</html>
