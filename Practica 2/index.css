@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+article{
+    margin-bottom: 1vw;
+}
+
+.fs20{
+    font-size: 20px;
+}
+
+.fs12{
+    font-size: 12px;
+}
+
+.em{
+    font-size: 20px;
+    border: solid 1px;
+}
+
+.em8{
+    font-size: 0.8em;
+}
+
+.em1-2{
+    font-size: 1.2em;
+}
+
+.em2{
+    font-size: 2em;
+}
+
+.rem8{
+    font-size: 0.8rem;
+}
+
+.rem1-2{
+    font-size: 1.2rem;
+}
+
+.rem2{
+    font-size: 2rem;
+}
+
+.absolutas{
+    border: solid 1px;
+    margin-bottom: 1vw;
+}
+
+.in3{
+    width: 3in;
+}
+
+.in6{
+    width: 6in;
+}
+
+.in9{
+    width: 9in;
+}
+
+.cm20{
+    width: 20cm;
+}
+
+.cm25{
+    width: 25cm;
+}
+
+.cm30{
+    width: 30cm;
+}
+
+.mm100{
+    width: 100mm;
+}
+
+.mm200{
+    width: 200mm;
+}
+
+.mm350{
+    width: 350mm;
+}
+
+.pt108{
+    width: 108pt;
+}
+
+.pt500{
+    width: 500pt;
+}
+
+.pt800{
+    width: 800pt;
+}
+
+.pc50{
+    width: 50pc;
+}
+
+.pc150{
+    width: 150pc;
+}
+
+.pc200{
+    width: 200pc;
+}
+
+.p25{
+    width: 25%;
+}
+
+.p50{
+    width: 50%;
+}
+
+.p75{
+    width: 75%;
+}
+
+.p100{
+    width: 100%;
+}
+
+.nombre{
+    background: green;
+}
+
+.rgb{
+    background: rgb(14,25,80);
+}
+
+.hex{
+    background: #2456ab;
+}
+
+.hsl{
+    background: hsl(20,50,80);
+}
+
+.trans{
+    background: rgba(20,60,120,0.6);
+}

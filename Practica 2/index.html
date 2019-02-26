@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Practica 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tutorial html</h1>
+    </header>
+    <p>El tamaño de la fuente de la pagina es de 16px.</p>
+    <p>Ahora veremos las diferentes medidas que podemos usar en el texto con sus respectivos ejemplos: </p>
+    <section>
+        <h2>Medidas relativas</h2>
+        <article>
+            <h3>Uso de <span>px</span></h3>
+            <div>
+                <p>Este es un texto con la fuente original de la pagina.</p>
+                <p class="fs12">Este es un texto con un tamaño de fuente de 12px</p>
+                <p class="fs20">Este es un texto con un tamaño de fuente de 20px.</p>
+            </div>
+        </article>
+        <article>
+            <h3>Uso de <span>em</span></h3>
+            <span>Esta etiqueta utiliza una proporcion relacional con el tamaño de su padre o de su propio elemento.<br>
+                Si un div tiene una fuente de 16px y queremos que las etiquetas p dentro de el tengas una fuente a
+                la mitad entonces usaremos la medida 0.5em, al usar 1em estamos diciendo que queremos el 100% del
+                tamaño de la la fuente del padre. Aqui unos ejemplos:
+            </span>
+            <div class="em">
+                <h4>Este div cuenta con una fuente de 20px.</h4>
+                <p>Este es un texto con la fuente original del div(20px).</p>
+                <p class="em8">Este es un texto con un tamaño de fuente de 0.8em (20px * 0.8 = 16px)</p>
+                <p class="em1-2">Este es un texto con un tamaño de fuente de 1.2em (20px * 1.2 = 24px).</p>
+                <p class="em2">Este es un texto con un tamaño de fuente de 2em. (20px * 2 = 40px)</p>
+            </div>
+        </article>
+        <article>
+            <h3>Uso de <span>rem</span></h3>
+            <span>Esta etiqueta utiliza una proporcion relacional con el tamaño definido de la página.<br>
+                Si un div tiene la pagina tiene un tamaño de 16px y queremos que las etiquetas p dentro de el
+                tengas una fuente a la mitad entonces usaremos la medida 0.5rem, al usar 1em estamos diciendo que
+                queremos el 100% del
+                tamaño de la la fuente de la pagina. Con esta medida no influye el tamaño del padre.
+                Aqui unos ejemplos:
+            </span>
+            <div class="em">
+                <h4>Este div cuenta con una fuente de 20px. Y la pagina con uno de 16px.</h4>
+                <p>Este es un texto con la fuente original del div(20px).</p>
+                <p class="rem8">Este es un texto con un tamaño de fuente de 0.8rem (16px * 0.8 = 12.8px)</p>
+                <p class="rem1-2">Este es un texto con un tamaño de fuente de 1.2rem (16px * 1.2 = 19.2px).</p>
+                <p class="rem2">Este es un texto con un tamaño de fuente de 2rem. (16px * 2 = 32px)</p>
+            </div>
+        </article>
+    </section>
+    <section>
+        <h2>Absolutas</h2>
+        <article>
+            <h3>Uso de <span>in</span></h3>
+            <span>Esta medida nos ayuda a definir el tamaño de un objeto de en pulgadas.
+                Aqui unos ejemplos:
+                <div class="in3 absolutas"><span>Este es un div con una longitud de 3 pulgadas.</span></div>
+                <div class="in6 absolutas"><span>Este es un div con una longitud de 6 pulgadas.</span></div>
+                <div class="in9 absolutas"><span>Este es un div con una longitud de 9 pulgadas.</span></div>
+            </span>
+        </article>
+        <article>
+            <h3>Uso de <span>cm</span></h3>
+            <span>Esta medida nos ayuda a definir el tamaño de un objeto de en centimetros.
+                Aqui unos ejemplos:
+                <div class="cm20 absolutas"><span>Este es un div con una longitud de 20 centimetros.</span></div>
+                <div class="cm25 absolutas"><span>Este es un div con una longitud de 25 centimetros.</span></div>
+                <div class="cm30 absolutas"><span>Este es un div con una longitud de 30 centimetros.</span></div>
+            </span>
+        </article>
+        <article>
+            <h3>Uso de <span>mm</span></h3>
+            <span>Esta medida nos ayuda a definir el tamaño de un objeto de en milimetros.
+                Aqui unos ejemplos:
+                <div class="mm100 absolutas"><span>Este es un div con una longitud de 100 milimetros.</span></div>
+                <div class="mm200 absolutas"><span>Este es un div con una longitud de 200 milimetros.</span></div>
+                <div class="mm350 absolutas"><span>Este es un div con una longitud de 350 milimetros.</span></div>
+            </span>
+        </article>
+        <article>
+            <h3>Uso de <span>pt</span></h3>
+            <span>Esta medida nos ayuda a definir el tamaño de un objeto de en puntos. Un punto es
+                1/72 de una pulgada.
+                Aqui unos ejemplos:
+                <div class="pt108 absolutas"><span>Este es un div con una longitud de 108 puntos.</span></div>
+                <div class="pt500 absolutas"><span>Este es un div con una longitud de 500 puntos.</span></div>
+                <div class="pt800 absolutas"><span>Este es un div con una longitud de 800 puntos.</span></div>
+            </span>
+        </article>
+        <article>
+            <h3>Uso de <span>pc</span></h3>
+            <span>Esta medida nos ayuda a definir el tamaño de un objeto de en picas. Una pica son
+                12 puntos.
+                Aqui unos ejemplos:
+                <div class="pc50 absolutas"><span>Este es un div con una longitud de 50 picas.</span></div>
+                <div class="pc150 absolutas"><span>Este es un div con una longitud de 150 picas.</span></div>
+                <div class="pc200 absolutas"><span>Este es un div con una longitud de 200 picas.</span></div>
+            </span>
+        </article>
+    </section>
+    <section>
+        <h2>Porcentuales</h2>
+        <article>
+            <h3>Uso de <span>%</span></h3>
+            <span>Esta medida nos permite definir el tamaño de un objeto segun un porcentaje del ancho del
+                objeto padre, si la pantalla se achica entonces éste tambien lo hará.<br>
+                Aqui unos ejemplos:
+            </span>
+            <div class="p25 absolutas">Este es un div con un ancho de 25%</div>
+            <div class="p50 absolutas">Este es un div con un ancho de 50%</div>
+            <div class="p75 absolutas">Este es un div con un ancho de 75%</div>
+            <div class="p100 absolutas">Este es un div con un ancho de 100%</div>
+        </article>
+    </section>
+    <section>
+        <h2>Colores</h2>
+        <article>
+            <div class="nombre absolutas">Este es un div con color green.</div>
+            <div class="rgb absolutas">Este es un div con color rgb(14,25,80).</div>
+            <div class="hex absolutas">Este es un div con color #2456ab.</div>
+            <div class="hsl absolutas">Este es un div con color hsl(20,50,80).</div>
+            <div class="trans absolutas">Este es un div con color rgba(20,60,120,0.6) con un 60% de opacidad.</div>
+        </article>
+    </section>
+</body>
+
+</html>
